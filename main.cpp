@@ -32,6 +32,15 @@ cout << college << endl;
 cout << weight << endl;
 
 cout << " the end " << endl;
+
+
+cout << "now making cahnges on the demand oif erwin sahib as the next day work. i am o good guy you know"
+// shakjsbcaksc
+//lauhdksjnakjsbc
+//lasnakjsnalns
+//kjsfkaskajns
+//sfalsfasn
+//lsjasnanscaj
 return 0;
 
 
