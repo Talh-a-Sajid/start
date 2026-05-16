@@ -1,3 +1,9 @@
+// this is an array for storing inventory items
+
+
+
+
+
 #include"inventoryitem.h"
 #include<iostream>
 #include<string>
