@@ -1,0 +1,81 @@
+#ifndef INVENTORYITEM_H
+#define INVENTORYITEM_H
+#include<iostream>
+using namespace std;
+#include<string>
+
+class inventoryItem {
+
+private :
+
+	string description;
+	double cost;
+	int units;
+
+public : 
+	
+	//constructor no 1
+
+	inventoryItem() {
+
+		description = " ";
+		cost = 0.0;
+		units = 0;
+	}
+
+	// constructor no 2
+	
+	inventoryItem(string desc) {
+
+		description = desc;
+		cost = 0.0;
+		units = 0;
+
+	}
+
+
+	// constructor no 3
+
+	inventoryItem(string desc, double c, int u) {
+
+		description = desc;
+		cost = c;
+		units = u;
+	}
+
+
+	void setDescription(string des) { description = des; }
+	void setCost(double cos) { cost = cos; }
+	void setUnits(int no) { cost = no; }
+
+
+	string getDescription() { return description;}
+	double getCost() { return cost; }
+	int getUnits() { return units; }
+
+
+
+
+
+
+	void display() {
+
+		cout << "name : " << description << endl ;
+		cout << "price : $" << cost <<endl ;
+		cout << "quantity : " << units <<endl;
+
+	}
+
+
+
+
+};
+
+
+
+
+
+
+
+
+#endif
